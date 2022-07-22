@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.calculator {
+    border: 1px solid black;
+    width: 60%;
+}
+.calculator__result-area {
+    border: 1px solid black;
+    min-height: 30px;
+}
+.calculator__buttons {
+}
+.btn{
+    display: block;
+    width: 24%;
+    padding: 5px 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.calculator__bouttons-row {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 5px 0;
+}
+
+
