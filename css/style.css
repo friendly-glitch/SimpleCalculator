@@ -22,8 +22,12 @@ html{
     width: 60%;
 }
 .calculator__result-area {
+    display: flex;
+    justify-content: flex-end;
     border: 1px solid black;
-    min-height: 30px;
+    min-height: 38px;
+    font-size: 30px;
+
 }
 .calculator__buttons {
 }
@@ -36,9 +40,9 @@ html{
 }
 .calculator__bouttons-row {
     display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    margin: 5px 0;
 }
-/*  */
+
 
