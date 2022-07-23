@@ -30,13 +30,12 @@ function calcNumb(number) {
     return number
 }
 
-
 let resultArea = document.querySelector(".calculator__result-area")
 let textArea = ''
 let previousTextArea = ''
 let currentOperation = ''
 let point = false
-let numlengthLimit = 15
+let numlengthLimit = 0.068 * resultArea.offsetWidth - 1
 let numFix = numlengthLimit - Math.trunc(+resultArea.innerHTML).toString.length
 
 document.addEventListener("click", function (e) {
